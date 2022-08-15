@@ -22,7 +22,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    /*font-family: Norse-Boldm sans-serif;*/
+    display: flex;
+    flex-direction: column;
 }
 
 .right{
@@ -45,6 +46,7 @@ body{
     background-color: white;
     height: 33vh;
     align-items: center;
+    box-shadow: 2px 5px #E5E7EB;
 }
 
 .form-main-div{
@@ -97,6 +99,7 @@ label{
     width: 175px;
     font-weight: bolder;
     font-size:small;
+    box-shadow: 2px 5px #E5E7EB;
 }
 
 .third{
@@ -109,8 +112,45 @@ label{
     margin-top: 25px;
 }
 
-a{
+.login{
     color: #596D48;
     text-decoration: none;
     font-weight: bold;
+}
+
+.a-footer{
+    color: white;
+}
+
+.p-footer{
+    font-size: 12px;
+}
+
+.forImage{
+    height: 34vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.forFooter{
+    height: 60vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+}
+
+.semi-transparent{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+    font-family: Norse-Bold, sans-serif;
+}
+
+h1{
+    font-size: 35px;
+    font-family: Norse-Bold;
 }
