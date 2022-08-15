@@ -6,7 +6,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: Norse-Bold, sans-serif;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .main{
@@ -147,10 +147,9 @@ label{
     justify-content: center;
     align-items: center;
     background: rgba(0, 0, 0, 0.6);
-    font-family: Norse-Bold, sans-serif;
 }
 
 h1{
-    font-size: 35px;
+    font-size: 50px;
     font-family: Norse-Bold;
 }
